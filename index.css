@@ -1,0 +1,1345 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navigasi Atas */
+
+.nav-atas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
+  width: 95%;
+  height: 7vw;
+  z-index: 9999;
+  border-bottom-right-radius: 3vw;
+  border-bottom-left-radius: 3vw;
+  backdrop-filter: blur(8px);
+  margin-left: 2.5%;
+}
+
+.nav-atas .nav img {
+  width: 6vw;
+  position: absolute;
+  top: 0.8vw;
+  left: 4vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nav-atas .atas li a {
+  text-decoration: none;
+  padding: 0.5vw 1vw 0.5vw 1vw;
+  color: #263f6b;
+  transition: 0.3s ease;
+}
+
+.nav-atas .atas {
+  display: flex;
+  gap: 3vw;
+  list-style-type: none;
+  margin-left: 25%;
+  margin-right: 3vw;
+  font-size: 1.3vw;
+  font-weight: 650;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.nav-atas .atas li a:hover {
+  background-color: #263f6b;
+  color: white;
+  border-radius: 5vw;
+}
+
+.nav-atas .atas li a:active {
+  background-color: #578ae2;
+  color: white;
+}
+
+section {
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+/* end navigasi atas */
+
+/* start navigasi home */
+
+.background-home {
+  background: linear-gradient(to bottom, #263f6b, #578ae2);
+  width: 85vw;
+  height: 47vw;
+  margin-left: 6.3%;
+  margin-top: 13%;
+  background-size: cover;
+  border-radius: 7vw;
+  box-shadow: 0px 3px 10px rgb(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.background-home .gambar-garis-home {
+  position: absolute;
+  color: white;
+  background-color: white;
+  width: 0.8vw;
+  height: 17.2vw;
+  margin-top: 10.5vw;
+  margin-left: 7%;
+  border-radius: 50px;
+  z-index: 1;
+}
+
+.background-home .tulisan-tagline {
+  color: white;
+  font-size: 4.5vw;
+  font-weight: 700;
+  padding-left: 8%;
+  padding-top: 8%;
+}
+
+.tulisan-tagline .body {
+  margin-left: 2vw;
+}
+
+.tulisan-tagline .mind {
+  margin-left: 2vw;
+}
+
+.tulisan-tagline .kata {
+  font-size: 1.6vw;
+}
+
+.tulisan2-atas {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.2vw;
+  padding-left: 8%;
+  padding-top: 3%;
+}
+
+.tulisan2-atas .in-instiki .instiki {
+  font-size: 3vw;
+  font-weight: 700;
+}
+
+.tulisan2-atas .tulisan-restu .restu {
+  font-size: 3vw;
+  font-weight: 700;
+}
+
+.gambar-restu {
+  margin-left: 43%;
+  margin-top: -54%;
+  filter: drop-shadow(7px 7px 1px rgba(0, 0, 0, 0.35));
+  z-index: 1;
+}
+
+.tanda-seru {
+  margin-left: 78vw;
+  margin-top: -18.5vw;
+  filter: drop-shadow(7px 7px 1px rgba(0, 0, 0, 0.35));
+  cursor: pointer;
+  transition: all 0.3s;
+  z-index: 1;
+}
+
+.tanda-seru:hover {
+  transform: scale(1.1);
+}
+
+/* end navigasi home */
+
+/* start navigasi about us */
+
+.line {
+  background: linear-gradient(to left, #263f6b, #578ae2);
+  width: 59vw;
+  height: 13vw;
+  position: absolute;
+  transform: rotate(-50deg);
+  margin-left: -20%;
+  margin-top: 3%;
+  z-index: -1;
+}
+
+.filosofi {
+  margin-top: 13%;
+  display: block;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+.filosofi .h1 {
+  font-weight: 700;
+  font-size: 3vw;
+}
+
+.filosofi .h2 {
+  font-size: 1.4vw;
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 2.5vw;
+}
+
+.tentang-coach {
+  margin-top: 3%;
+  display: block;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3vw;
+}
+
+.coach-restu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: -8%;
+}
+
+.coach-restu .img-restu {
+  filter: drop-shadow(-7px 8px 1px rgba(0, 0, 0, 0.35));
+}
+
+.coach-restu .coach-restu1 {
+  margin-top: 12%;
+}
+
+.jel {
+  display: block;
+  margin-top: 7vw;
+}
+
+.jel .jel-restu {
+  font-weight: 700;
+  font-size: 4.5vw;
+}
+
+.jel p {
+  line-height: 2vw;
+  font-size: 1.2vw;
+  margin-top: -0.2vw;
+}
+
+.jel .jel2-restu {
+  margin-top: -1vw;
+  font-size: 1.2vw;
+}
+
+.jel .jel2-restu span {
+  font-weight: 700;
+}
+
+.our-team {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.our-team .personil {
+  font-weight: 700;
+  font-size: 3vw;
+  margin-top: 5%;
+}
+
+.our-team p {
+  font-size: 1.2vw;
+}
+
+.our-team span {
+  font-weight: 700;
+}
+
+.jel-personil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  gap: 3vw;
+}
+
+.jel-personil .nama-personil {
+  text-align: center;
+}
+
+.jel-personil .nama-personil .jel-ameng {
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.jel-personil .nama-personil p {
+  font-size: 1.2vw;
+}
+
+.jel-personil .nama-personil span {
+  font-weight: 700;
+  font-size: 1.2vw;
+}
+
+.jel-personil .nama-personil2 {
+  text-align: center;
+}
+
+.jel-personil .nama-personil2 .jel-dodek {
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.jel-personil .nama-personil2 p {
+  font-size: 1.2vw;
+}
+
+.jel-personil .nama-personil2 span {
+  font-weight: 700;
+  font-size: 1.2vw;
+}
+
+.jel-personil .nama-personil3 {
+  text-align: center;
+}
+
+.jel-personil .nama-personil3 .jel-maul {
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.jel-personil .nama-personil3 p {
+  font-size: 1.2vw;
+}
+
+.jel-personil .nama-personil3 span {
+  font-weight: 700;
+  font-size: 1.2vw;
+}
+
+.jel-personil .nama-personil4 {
+  text-align: center;
+}
+
+.jel-personil .nama-personil4 .jel-agus {
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.jel-personil .nama-personil4 p {
+  font-size: 1.2vw;
+}
+
+.jel-personil .nama-personil4 span {
+  font-weight: 700;
+  font-size: 1.2vw;
+}
+
+.jel-personil .nama-personil5 {
+  text-align: center;
+}
+
+.jel-personil .nama-personil5 .jel-alit {
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.jel-personil .nama-personil5 p {
+  font-size: 1.2vw;
+}
+
+.jel-personil .nama-personil5 span {
+  font-weight: 700;
+  font-size: 1.2vw;
+}
+
+.foto-personil {
+  display: flex;
+  justify-content: center;
+}
+
+.foto-personil .foto {
+  filter: drop-shadow(-7px 8px 1px rgba(0, 0, 0, 0.35));
+}
+
+/* end halaman about us */
+
+/* start halaman services */
+
+.fasilitas-layanan {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 9%;
+}
+
+.fasilitas-layanan .jel-fasilitas {
+  font-weight: 700;
+  font-size: 3vw;
+}
+
+.fasilitas-layanan p {
+  font-size: 1.4vw;
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 2.5vw;
+}
+
+.gambar-layanan {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  width: 70%;
+  gap: 3vw;
+  margin-top: 5vh;
+}
+
+.gambar-layanan img {
+  width: 100%;
+  height: 35vw;
+  object-fit: cover;
+  border-radius: 3vw;
+  transition: opacity 0.8s ease;
+  position: relative;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
+}
+
+.program {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 11%;
+  margin-right: 9.6%;
+}
+
+.h1-program {
+  text-align: center;
+  margin-top: 8%;
+  font-weight: 700;
+  font-size: 4vw;
+}
+
+.program h5 {
+  font-size: 3vw;
+  line-height: 4vw;
+}
+
+.program h5 span {
+  color: white;
+}
+
+.program p {
+  font-size: 1vw;
+  margin-left: 10vw;
+  line-height: 1.7vw;
+}
+
+.jenis-program {
+  display: flex;
+  justify-content: center;
+  gap: 3.2vw;
+}
+
+.jenis-program .program-kebugaran {
+  background: linear-gradient(to top, #263f6b, #578ae2);
+  width: 17vw;
+  height: 25;
+  padding: 3vw;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: all(0.3s);
+}
+.jenis-program .program-kelompok {
+  background: linear-gradient(to top, #263f6b, #578ae2);
+  width: 17vw;
+  height: 25;
+  padding: 3vw;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: all(0.3s);
+}
+.jenis-program .program-pribadi {
+  background: linear-gradient(to top, #263f6b, #578ae2);
+  width: 17vw;
+  height: 25;
+  padding: 3vw;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: all(1.3s);
+}
+
+.jenis-program .program-kebugaran:hover {
+  background: linear-gradient(to bottom, white, black);
+}
+.jenis-program .program-kelompok:hover {
+  background: linear-gradient(to bottom, white, black);
+}
+.jenis-program .program-pribadi:hover {
+  background: linear-gradient(to bottom, white, black);
+}
+
+.jenis-program .program-kebugaran img {
+  width: 5.1vw;
+}
+.jenis-program .program-kelompok img {
+  width: 3.3vw;
+}
+.jenis-program .program-pribadi img {
+  width: 3vw;
+}
+
+.jenis-program .program-kebugaran h1 {
+  color: black;
+  font-size: 2.5vw;
+}
+.jenis-program .program-kelompok h1 {
+  color: black;
+  font-size: 2.5vw;
+}
+.jenis-program .program-pribadi h1 {
+  color: black;
+  font-size: 2.5vw;
+}
+
+.jenis-program .program-kebugaran h2 {
+  color: white;
+  font-size: 1.7vw;
+  margin-top: -1.7vw;
+}
+.jenis-program .program-kelompok h2 {
+  color: white;
+  font-size: 1.7vw;
+  margin-top: -1.7vw;
+}
+.jenis-program .program-pribadi h2 {
+  color: white;
+  font-size: 1.7vw;
+  margin-top: -1.7vw;
+}
+
+.jenis-program .program-kebugaran p {
+  color: white;
+  font-size: 1.1vw;
+  margin-top: -0.5vw;
+  line-height: 1.7vw;
+}
+.jenis-program .program-kelompok p {
+  color: white;
+  font-size: 1.1vw;
+  margin-top: -0.5vw;
+  line-height: 1.7vw;
+}
+.jenis-program .program-pribadi p {
+  color: white;
+  font-size: 1.1vw;
+  margin-top: -0.5vw;
+  line-height: 1.7vw;
+}
+
+.pricelist {
+  margin-top: 4vw;
+  margin-left: 11.5%;
+  font-size: 3vw;
+  font-weight: 700;
+}
+
+.pricelist1 {
+  margin-top: 1vw;
+  margin-left: 11.5%;
+  font-size: 2vw;
+  font-weight: 600;
+}
+
+.harga {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vw;
+}
+
+.harga .jasa1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  margin-top: 3vw;
+}
+
+.harga .jasa2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  margin-top: 1vw;
+}
+
+.harga .jasa3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  margin-top: 1vw;
+}
+
+.harga .jasa1 .a {
+  color: white;
+  background: linear-gradient(to right, #578ae2, #263f6b);
+  width: 15vw;
+  height: 4vw;
+  text-align: center;
+  align-content: center;
+  font-weight: 700;
+  font-size: 2vw;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
+}
+.harga .jasa1 .s {
+  color: white;
+  background: linear-gradient(to right, #578ae2, #263f6b);
+  width: 15vw;
+  height: 4vw;
+  padding-right: 2vw;
+  text-align: right;
+  align-content: center;
+  font-weight: 700;
+  font-size: 2vw;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
+}
+.harga .jasa1 .d {
+  color: white;
+  background: linear-gradient(to right, #578ae2, #263f6b);
+  width: 39vw;
+  height: 4vw;
+  padding-right: 2vw;
+  text-align: right;
+  align-content: center;
+  font-weight: 700;
+  font-size: 2vw;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
+}
+.harga .jasa1 .s span {
+  font-size: 1vw;
+}
+.harga .jasa1 .d span {
+  font-size: 1vw;
+}
+.harga .jasa2 .q {
+  color: white;
+  background: linear-gradient(to right, #578ae2, #263f6b);
+  width: 15vw;
+  height: 4vw;
+  text-align: center;
+  align-content: center;
+  font-weight: 700;
+  font-size: 2vw;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
+}
+.harga .jasa2 .w {
+  color: white;
+  background: linear-gradient(to right, #578ae2, #263f6b);
+  width: 15vw;
+  height: 4vw;
+  padding-right: 2vw;
+  text-align: right;
+  align-content: center;
+  font-weight: 700;
+  font-size: 2vw;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
+}
+.harga .jasa2 .e {
+  color: white;
+  background: linear-gradient(to right, #578ae2, #263f6b);
+  width: 39vw;
+  height: 4vw;
+  padding-right: 2vw;
+  text-align: right;
+  align-content: center;
+  font-weight: 700;
+  font-size: 2vw;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
+}
+.harga .jasa2 .w span {
+  font-size: 1vw;
+}
+.harga .jasa2 .e span {
+  font-size: 1vw;
+}
+.harga .jasa3 .z {
+  color: white;
+  background: linear-gradient(to right, #578ae2, #263f6b);
+  width: 15vw;
+  height: 4vw;
+  text-align: center;
+  align-content: center;
+  font-weight: 700;
+  font-size: 2vw;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
+}
+.harga .jasa3 .x {
+  color: white;
+  background: linear-gradient(to right, #578ae2, #263f6b);
+  width: 15vw;
+  height: 4vw;
+  padding-right: 2vw;
+  text-align: right;
+  align-content: center;
+  font-weight: 700;
+  font-size: 2vw;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
+}
+.harga .jasa3 .c {
+  color: white;
+  background: linear-gradient(to right, #578ae2, #263f6b);
+  width: 39vw;
+  height: 4vw;
+  padding-right: 2vw;
+  text-align: right;
+  align-content: center;
+  font-weight: 700;
+  font-size: 2vw;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
+}
+.harga .jasa3 .x span {
+  font-size: 1vw;
+}
+.harga .jasa3 .c span {
+  font-size: 1vw;
+}
+
+.akhir-services {
+  display: flex;
+  text-align: center;
+  margin-top: 3vw;
+  margin-left: 10.42%;
+  margin-right: 10.42%;
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+}
+
+.akhir-services span {
+  font-weight: 700;
+  font-size: 3vw;
+}
+
+/* end halaman services */
+
+/* start halaman stories */
+
+.jel-stories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9%;
+  font-size: 3vw;
+  font-weight: 700;
+}
+
+.isi-stories {
+  display: flex;
+  align-items: center;
+  margin-top: 3vw;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.isi-stories .gambar-stories img {
+  width: 35vw;
+  filter: drop-shadow(-7px 8px 1px rgba(0, 0, 0, 0.35));
+}
+
+.isi-stories .kata-stories {
+  display: block;
+  line-height: 3vw;
+  font-size: 1.2vw;
+}
+
+.isi-stories .kata-stories .tanda-petik1 {
+  font-weight: 700;
+  font-size: 11vw;
+  margin-top: 3vw;
+}
+
+.isi-stories .kata-stories .tanda-petik2 {
+  font-weight: 700;
+  font-size: 11vw;
+  margin-top: 5vw;
+  text-align: right;
+}
+
+.isi-stories .kata-stories p span {
+  font-weight: 700;
+}
+
+.isi-stories .kata-stories .ig-stories img {
+  width: 3vw;
+  margin-top: -6vw;
+}
+.isi-stories .kata-stories .ig-stories span {
+  font-size: 1.2vw;
+}
+
+.ig-stories span a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.line-stories {
+  background: linear-gradient(to top, #578ae2, #263f6b);
+  width: 2vw;
+  height: 70vw;
+  margin-left: 95%;
+  margin-top: -75%;
+  z-index: -1;
+  border-radius: 50px;
+}
+
+.subtitle {
+  font-size: 2vw;
+  margin-left: 15%;
+  margin-top: -4%;
+  color: #949494;
+  margin-bottom: 0.5vw;
+}
+
+.story-slider {
+  max-width: 72%;
+  margin: auto;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 3vw;
+  padding: 2vw 1vw;
+  text-align: center;
+  box-shadow: to right 1vw 0 12px rgba(0, 0, 0);
+}
+
+.story-track {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
+.story-box {
+  min-width: 93%;
+  background: linear-gradient(135deg, #f5faff, #bababa);
+  border-radius: 2vw;
+  padding: 2vw;
+  margin: 1vw;
+}
+
+.story-box img {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0056b3;
+  margin-bottom: 1vw;
+}
+
+.story-box h3 {
+  font-size: 3vw;
+  color: #0056b3;
+  margin: 1vw 0;
+}
+
+.story-box span {
+  font-size: 2vw;
+  display: block;
+  color: #777;
+  margin-bottom: 1vw;
+}
+
+.story-box p {
+  font-size: 1.5vw;
+  font-style: italic;
+  color: #333;
+}
+
+/* end halaman stories */
+
+/* start halaman booking */
+
+.halaman-booking {
+  font-size: 3vw;
+  font-weight: 700;
+  margin-top: 9%;
+  text-align: center;
+}
+
+.halaman-booking1 {
+  font-size: 1.5vw;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.isi-booking {
+  display: flex;
+  text-align: center;
+  gap: 2vw;
+  margin-top: 7vw;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.isi-booking .isi-booking0 {
+  background: linear-gradient(to top, #263f6b, #578ae2);
+  width: 25vw;
+  height: 100%;
+  border-radius: 3vw;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: 0.9s ease;
+}
+
+.isi-booking .isi-booking1 {
+  background: linear-gradient(to top, #263f6b, #578ae2);
+  width: 25vw;
+  height: 100%;
+  border-radius: 3vw;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: 0.9s ease;
+}
+
+.isi-booking .isi-booking2 {
+  background: linear-gradient(to top, #263f6b, #578ae2);
+  width: 25vw;
+  height: 100%;
+  border-radius: 3vw;
+  box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: 0.9s ease;
+}
+
+.isi-booking .isi-booking0 h1 {
+  padding-top: 2vw;
+  font-size: 1.5vw;
+  color: white;
+}
+
+.isi-booking .isi-booking1 h1 {
+  padding-top: 2vw;
+  font-size: 1.5vw;
+  color: white;
+}
+
+.isi-booking .isi-booking2 h1 {
+  padding-top: 2vw;
+  font-size: 1.5vw;
+  color: white;
+}
+
+.isi-booking .isi-booking0 p {
+  padding-top: 1vw;
+  font-weight: 700;
+  font-size: 3vw;
+  color: white;
+}
+
+.isi-booking .isi-booking0 p span {
+  font-weight: 700;
+  font-size: 2vw;
+  color: white;
+}
+
+.isi-booking .isi-booking0 a {
+  font-weight: 700;
+  font-size: 1vw;
+  color: white;
+}
+
+.isi-booking .isi-booking0 i {
+  font-size: 1.2vw;
+}
+
+.isi-booking .isi-booking0 .q {
+  font-size: 1.2vw;
+  color: white;
+}
+
+.isi-booking .isi-booking0 .w {
+  font-size: 1.2vw;
+  color: white;
+  opacity: 0.5;
+}
+
+.isi-booking .isi-booking2 .w {
+  font-size: 1.2vw;
+  color: white;
+  opacity: 0.5;
+}
+
+.isi-booking .isi-booking0 .e {
+  font-size: 1.2vw;
+  color: white;
+  opacity: 0.3;
+}
+
+.isi-booking .isi-booking0 #w {
+  font-size: 1.2vw;
+  color: white;
+  opacity: 0.5;
+}
+
+.isi-booking .isi-booking0 #e {
+  font-size: 1.2vw;
+  color: white;
+  opacity: 0.3;
+}
+
+.isi-booking .isi-booking0 .button-booking button {
+  border: 0.15vw solid white;
+  border-radius: 2vw;
+  background-color: transparent;
+  width: 20vw;
+  height: 4vw;
+  color: white;
+  font-weight: 700;
+  font-size: 1.3vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  cursor: pointer;
+  transition: all(0.3s);
+}
+
+.isi-booking .isi-booking1 p {
+  padding-top: 1vw;
+  font-weight: 700;
+  font-size: 3vw;
+  color: white;
+}
+
+.isi-booking .isi-booking1 p span {
+  font-weight: 700;
+  font-size: 2vw;
+  color: white;
+}
+
+.isi-booking .isi-booking1 a {
+  font-weight: 700;
+  font-size: 1vw;
+  color: white;
+}
+
+.isi-booking .isi-booking1 i {
+  font-size: 1.2vw;
+}
+
+.isi-booking .isi-booking1 .q {
+  font-size: 1.2vw;
+  color: white;
+}
+
+.isi-booking .isi-booking1 .button-booking button {
+  border: 0.15vw solid white;
+  border-radius: 2vw;
+  background-color: transparent;
+  width: 20vw;
+  height: 4vw;
+  color: white;
+  font-weight: 700;
+  font-size: 1.3vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.isi-booking .isi-booking2 p {
+  padding-top: 1vw;
+  font-weight: 700;
+  font-size: 3vw;
+  color: white;
+}
+
+.isi-booking .isi-booking2 p span {
+  font-weight: 700;
+  font-size: 2vw;
+  color: white;
+}
+
+.isi-booking .isi-booking2 a {
+  font-weight: 700;
+  font-size: 1vw;
+  color: white;
+}
+
+.isi-booking .isi-booking2 i {
+  font-size: 1.2vw;
+}
+
+.isi-booking .isi-booking2 .q {
+  font-size: 1.2vw;
+  color: white;
+}
+
+.isi-booking .isi-booking2 .e {
+  font-size: 1.2vw;
+  color: white;
+  opacity: 0.3;
+}
+
+.isi-booking .isi-booking2 #e {
+  font-size: 1.2vw;
+  color: white;
+  opacity: 0.3;
+}
+
+.isi-booking .isi-booking2 .button-booking button {
+  border: 0.15vw solid white;
+  border-radius: 2vw;
+  background-color: transparent;
+  width: 15vw;
+  height: 4vw;
+  color: white;
+  font-weight: 700;
+  font-size: 1.3vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.isi-booking .isi-booking0:hover {
+  background: linear-gradient(to top, black, rgb(135, 134, 134), black);
+  transform: scale(1.1);
+}
+
+.isi-booking .isi-booking1:hover {
+  background: linear-gradient(to top, black, rgb(135, 134, 134), black);
+  transform: scale(1.1);
+}
+
+.isi-booking .isi-booking2:hover {
+  background: linear-gradient(to top, black, rgb(135, 134, 134), black);
+  transform: scale(1.1);
+}
+
+.slide-booking {
+  justify-self: center;
+  border: 0.5vw solid transparent;
+  background: black;
+  border-radius: 3vw;
+  margin-top: 3vw;
+}
+
+.tab {
+  padding: 1vw 2vw;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.6s ease;
+  border-radius: 2vw;
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.tab.active {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.slider-wrapper {
+  width: 100%;
+  height: 60vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  width: 147%;
+  transition: transform 0.5s ease;
+  gap: 33vw;
+  margin-left: -6.4vw;
+  margin-top: -2vw;
+}
+
+.isi-booking {
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.booking-section {
+  background: linear-gradient(to right, #f2f8ff, #ffffff);
+  padding: 80px 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.booking-container {
+  max-width: 80vw;
+  margin-top: -12vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+
+.booking-info {
+  flex: 1;
+  min-width: 280px;
+}
+
+.booking-info h2 {
+  background: linear-gradient(45deg, #000000, #263f6b, #0056b3, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4vw;
+  font-weight: 800;
+}
+
+.booking-info p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.info-box span {
+  display: block;
+  margin: 10px 0;
+  color: #000000;
+  font-weight: 500;
+}
+
+.booking-form {
+  flex: 2;
+  min-width: 50vw;
+}
+
+.booking-form form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.booking-form h3 {
+  color: #0056b3;
+  margin-bottom: 20px;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+  border-color: #000000;
+}
+
+#nama,
+#email,
+#wa,
+#program,
+#paket,
+#tanggal,
+#catatan {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#nama:hover,
+#email:hover,
+#wa:hover,
+#program:hover,
+#paket:hover,
+#tanggal:hover,
+#catatan:hover {
+  transform: scale(0.95);
+}
+
+.booking-form button {
+  width: 100%;
+  background: linear-gradient(to right, #0056b3, #263f6b);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.booking-form button:hover {
+  background: linear-gradient(to right, #263f6b, #0056b3);
+  color: rgb(255, 255, 255);
+  transform: scale(0.95);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .booking-container {
+    flex-direction: column;
+  }
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  margin-top: 20px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+
+/* end halaman booking */
+
+/* start ornamen line*/
+
+.line9 {
+  background: linear-gradient(to right, #0056b3, #263f6b, #0056b3, #263f6b);
+  height: 10vw;
+  width: 100%;
+  margin-top: 1vw;
+  margin-left: -65%;
+  position: relative;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transform: rotate(-34deg);
+}
+
+/* end ornamen line */
+
+/* start scroll smoth */
+
+.in {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.in.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.in:nth-child(1) {
+  transition-delay: 0.3s;
+}
+.in:nth-child(2) {
+  transition-delay: 0.3s;
+}
+.in:nth-child(3) {
+  transition-delay: 0.3s;
+}
+
+/* end scroll smoth */
