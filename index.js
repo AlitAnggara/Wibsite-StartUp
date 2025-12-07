@@ -87,3 +87,31 @@ const observer = new IntersectionObserver((entries) => {
 }, options);
 
 reveals.forEach((r) => observer.observe(r));
+
+function sendToWA() {
+  let nama = document.getElementById("nama").value;
+  let email = document.getElementById("email").value;
+  let wa = document.getElementById("wa").value;
+  let program = document.getElementById("program").value;
+  let paket = document.getElementById("paket").value;
+  let tanggal = document.getElementById("tanggal").value;
+  let catatan = document.getElementById("catatan").value;
+
+  let nomorWA = "62895385905282"; // GANTI DENGAN NOMOR KAMU
+
+  let pesan = `*Booking Training SportUp Campus* %0A
+------------------------------------ %0A
+Nama: ${nama} %0A
+Email: ${email} %0A
+No WA: ${wa}  %0A
+Program: ${program}  %0A
+Paket: ${paket}  %0A
+Tanggal: ${tanggal}  %0A
+
+Catatan Tambahan:  %0A
+${catatan}  %0A
+
+Terima kasih! 🙌`;
+
+  window.open(`https://wa.me/${nomorWA}?text=${pesan}`, "_blank");
+}
