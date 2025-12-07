@@ -529,21 +529,31 @@ section {
 
 .jenis-program .program-kebugaran p {
   color: white;
-  font-size: 1.1vw;
+  font-size: 0.85vw;
   margin-top: -0.5vw;
-  line-height: 1.7vw;
+  line-height: 1.5vw;
+  margin-bottom: 3vw;
 }
 .jenis-program .program-kelompok p {
   color: white;
-  font-size: 1.1vw;
+  font-size: 0.85vw;
   margin-top: -0.5vw;
-  line-height: 1.7vw;
+  line-height: 1.5vw;
+  margin-bottom: 3vw;
 }
 .jenis-program .program-pribadi p {
   color: white;
-  font-size: 1.1vw;
+  font-size: 0.85vw;
   margin-top: -0.5vw;
-  line-height: 1.7vw;
+  line-height: 1.5vw;
+  margin-bottom: 3vw;
+}
+
+#learn1,
+#learn2,
+#learn3 {
+  color: white;
+  text-decoration: none;
 }
 
 .pricelist {
@@ -1124,7 +1134,7 @@ section {
 
 .slide-booking {
   justify-self: center;
-  border: 0.5vw solid transparent;
+  border: 0.3vw solid transparent;
   background: black;
   border-radius: 3vw;
   margin-top: 3vw;
@@ -1189,6 +1199,8 @@ section {
 .booking-info {
   flex: 1;
   min-width: 280px;
+  font-size: 1.3vw;
+  margin-top: 15vw;
 }
 
 .booking-info h2 {
@@ -1218,8 +1230,8 @@ section {
 
 .booking-form form {
   background-color: #ffffff;
-  padding: 30px;
-  border-radius: 15px;
+  padding: 4vw;
+  border-radius: 2vw;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -1228,21 +1240,29 @@ section {
   margin-bottom: 20px;
 }
 
-.booking-form input,
-.booking-form select,
-.booking-form textarea {
+.booking-form select {
   width: 100%;
-  padding: 12px;
+  padding: 1.5vw;
   margin-bottom: 15px;
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
+  outline: none;
+}
+
+.booking-form input,
+.booking-form textarea {
+  width: 96%;
+  padding: 1.5vw;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 2px solid #ccc;
   outline: none;
 }
 
 .booking-form input:focus,
 .booking-form select:focus,
 .booking-form textarea:focus {
-  border-color: #000000;
+  border-color: #578ae2;
 }
 
 #nama,
@@ -1250,6 +1270,7 @@ section {
 #wa,
 #program,
 #paket,
+#paket1,
 #tanggal,
 #catatan {
   cursor: pointer;
@@ -1261,6 +1282,7 @@ section {
 #wa:hover,
 #program:hover,
 #paket:hover,
+#paket1:hover,
 #tanggal:hover,
 #catatan:hover {
   transform: scale(0.95);
@@ -1297,7 +1319,7 @@ section {
   margin-top: 20px;
   padding-top: 10px;
   text-align: center;
-  font-size: 13px;
+  font-size: 1.1vw;
   color: #aaa;
 }
 
