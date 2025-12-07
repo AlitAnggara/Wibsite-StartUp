@@ -94,6 +94,7 @@ function sendToWA() {
   let wa = document.getElementById("wa").value;
   let program = document.getElementById("program").value;
   let paket = document.getElementById("paket").value;
+  let paket1 = document.getElementById("paket1").value;
   let tanggal = document.getElementById("tanggal").value;
   let catatan = document.getElementById("catatan").value;
 
@@ -105,7 +106,8 @@ Nama: ${nama} %0A
 Email: ${email} %0A
 No WA: ${wa}  %0A
 Program: ${program}  %0A
-Paket: ${paket}  %0A
+Jenis Paket: ${paket}  %0A
+Opsi Paket: ${paket1}  %0A
 Tanggal: ${tanggal}  %0A
 
 Catatan Tambahan:  %0A
