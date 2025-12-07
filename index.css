@@ -546,7 +546,7 @@ section {
   font-size: 0.85vw;
   margin-top: -0.5vw;
   line-height: 1.5vw;
-  margin-bottom: 3vw;
+  margin-bottom: 4vw;
 }
 
 #learn1,
@@ -554,6 +554,11 @@ section {
 #learn3 {
   color: white;
   text-decoration: none;
+  font-size: 1.3vw;
+}
+
+.fa-solid.fa-arrow-right {
+  margin-left: 0.5vw;
 }
 
 .pricelist {
@@ -1365,4 +1370,3 @@ section {
 }
 
 /* end scroll smoth */
-
